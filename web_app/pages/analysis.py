@@ -10,8 +10,8 @@ st.set_page_config(page_title="Plotting Demo")
 
 st.title('Analytics')
 
-new_df = pd.read_csv('/web_app/datasets/data_viz1.csv')
-feature_text = pickle.load(open('/web_app/datasets/feature_text.pkl','rb'))
+new_df = pd.read_csv('/Users/Yatharth/Desktop/Real-Estate-Analysis/web_app/datasets/data_viz1.csv')
+feature_text = pickle.load(open('/Users/Yatharth/Desktop/Real-Estate-Analysis/web_app/datasets/feature_text.pkl','rb'))
 
 group_df = new_df.groupby('sector')[['price','price_per_sqft','built_up_area','latitude','longitude']].mean()
 

@@ -7,10 +7,10 @@ st.set_page_config(page_title="Viz Demo")
 
 
 
-with open('/Users/Yatharth/Desktop/Real-Estate/Real-Estate-property-Prediction/web_app/df.pkl','rb') as file:
+with open('/Users/Yatharth/Desktop/Real-Estate-Analysis/web_app/df.pkl','rb') as file:
     df = pickle.load(file)
 
-with open('/Users/Yatharth/Desktop/Real-Estate/Real-Estate-property-Prediction/web_app/pipeline.pkl','rb') as file:
+with open('/Users/Yatharth/Desktop/Real-Estate-Analysis/web_app/pipeline.pkl','rb') as file:
     pipeline = pickle.load(file)
 
 
