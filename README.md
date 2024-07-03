@@ -1,7 +1,7 @@
 # Real Estate Analysis
 
 
-## Overview
+## Project Overview
 The real estate industry is a cornerstone of economic activity, with property transactions being among the most significant financial decisions individuals make. However, navigating this market can be daunting due to its complexity and the multitude of factors influencing property prices. To address this challenge, we propose a machine learning-based real estate analysis project aimed at providing users with valuable insights and predictions.
 Our project leverages machine learning algorithms to analyze historical property data, incorporating features such as location, size, amenities, and market trends. The primary objectives of our system are threefold:
 
